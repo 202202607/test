@@ -28,14 +28,19 @@ class CheckList extends StatefulWidget{
 class _CheckListState extends State<CheckList>{
 
   static final List<String> _Allergy=[
-    "게",
+    "메밀",
     "밀",
-    "토마토",
-    "새우",
-    "복숭아",
-    "우유",
+    "대두",
     "견과류",
-    "난류"
+    "육류",
+    "갑각류",
+    "복숭아",
+    "토마토",
+    "난류",
+    "우유",
+    "조개류",
+    "굴, 전복, 홍합",
+    "아황산류"
   ];
    List<bool>? _isChecked=List.filled(_Allergy.length, false);
 
